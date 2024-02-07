@@ -1,0 +1,17 @@
+//reset all In use for reset redux store
+export const RESET_ALL = "RESET_ALL";
+
+//use for get Holiday list API
+export const HOLIDAY_LIST_PENDING = "HOLIDAY_LIST_PENDING"
+export const HOLIDAY_LIST_FULFILLED = "HOLIDAY_LIST_FULFILLED"
+export const HOLIDAY_LIST_REJECTED = "HOLIDAY_LIST_REJECTED"
+
+//use for Leave list API
+export const LEAVE_LIST_PENDING ="LEAVE_LIST_PENDING"
+export const LEAVE_LIST_FULFILLED="LEAVE_LIST_FULFILLED"
+export const LEAVE_LIST_REJECTED="LEAVE_LIST_REJECTED"
+
+//use for generate-user-token API
+export const GENERATE_TOKEN_PENDING = "GENERATE_TOKEN_PENDING"
+export const GENERATE_TOKEN_FULFILLED = "GENERATE_TOKEN_FULFILLED"
+export const GENERATE_TOKEN_REJECTED = "GENERATE_TOKEN_REJECTED"
